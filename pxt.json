@@ -1,0 +1,27 @@
+{
+    "name": "pxt-roborace",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-magicbit-pca9685": "github:microbit-cz/pxt-magicbit-pca9685#1.0.0",
+        "pxt-sensors": "github:TomasKazda/pxt-sensors#1.0.0"
+    },
+    "files": [
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.61",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "languageRestriction": "javascript-only"
+}
